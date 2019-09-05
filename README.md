@@ -49,3 +49,7 @@ python main.py --exp_name medical --mode predict
 	}
 ]
 ```
+### TODO
+- 增加word2vec预训练embedding初始化
+- 增加多类型实体同时抽取能力
+
