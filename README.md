@@ -1,5 +1,5 @@
 ## BiLSTM+CRF For NER Task
-Environment: python3.7 + pytorch1.1.0
+*Environment: python3.7 + pytorch1.1.0*
 
 
 **执行前先设置工作路径**
