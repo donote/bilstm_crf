@@ -66,7 +66,8 @@ class Runner(object):
         self.preprocessor = BIO_Preprocessing(self.hyper)
         self.preprocessor.gen_all_dataset()
         self.preprocessor.gen_bio_vocab()
-        self.preprocessor.gen_vocab(min_freq=1)
+        vocab = self.preprocessor.gen_vocab(min_freq=1)
+        self.preprocessor.gen_pretrain_emb(vocab)
 
     def run(self, mode: str):
         # The Main Entrance Function
